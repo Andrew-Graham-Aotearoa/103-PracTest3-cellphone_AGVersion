@@ -138,6 +138,8 @@ namespace PracTest2
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 //open the selected file
+                //Note on how to locate the .csv files to test on Waikato Uni PC
+                //C:\Users\ajg64\source\repos\Andrew-Graham-Aotearoa\103-PracTest3-cellphone_AGVersion
                 reader = File.OpenText(openFileDialog1.FileName);
 
                
